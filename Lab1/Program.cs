@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 
 
-TTsquad squad = new TTsquad();
+ResearchTeam squad = new ResearchTeam();
 Console.WriteLine("1) " +squad.ToShortString());
 
 
@@ -14,7 +14,7 @@ Console.WriteLine("Two years: " + squad[TimeFrame.TwoYear]);
 Console.WriteLine("Long: " + squad[TimeFrame.Long]);
 
 
-squad = new TTsquad("3) SomeTheme","SomeOrg",1223,TimeFrame.Long);
+squad = new ResearchTeam("3) SomeTheme","SomeOrg",1223,TimeFrame.Long);
 Console.WriteLine(squad);
 
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab1.type3
 {
-    internal class TTsquad
+    internal class ResearchTeam
     { 
         private string _orgName;
         private int _regNum;
@@ -27,14 +27,14 @@ namespace Lab1.type3
         public bool this[TimeFrame frame] { get => TimeFrame == frame; }
 
        
-        public TTsquad(string theme, string orgName, int regNum, TimeFrame timeFrame)
+        public ResearchTeam(string theme, string orgName, int regNum, TimeFrame timeFrame)
         {
             _theme = theme;
             _orgName = orgName;
             _regNum = regNum;
             _timeFrame = timeFrame;
         }
-        public TTsquad()
+        public ResearchTeam()
         {
             _theme = string.Empty;
             _orgName = string.Empty;
