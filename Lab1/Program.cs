@@ -1,5 +1,5 @@
 ﻿using Lab1.general;
-using Lab1.type3;
+using Lab1;
 using System.Diagnostics;
 
 
